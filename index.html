@@ -1,30 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"> <!-- -->>
+<head>   <!-- all the code is in the header-->>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 1. Name your web page -->
-    <title></title>
+    <title>Portfolio</title>
 
     <!-- 7. Import Stylesheet -->
-
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
     <!-- 2. Name and Info -->
     <header>
-
+        <h1>Nikhil</h1>
+        <h2>Student at University of Guelph</h2>
+        <h6>I am Canadian</h6>
+        <p>I am a 18 year old</p>
+        <p>I am in Guelph, Ontario</p>
+        <p>nsangani@uoguelph.ca</p>
     </header>
 
     <!-- 3. About Me -->
-    <section>
+    <section class ="about">
         <!-- 3a. The About Me Section -->
-
+        <div class ="aboutme">
+            <h2>ABOUT ME</h2>
+            <p>I am a first year software engineering student of UofG. <br> I love building software :0</p>
+        </div>   <!-- Seperate info-->
 
         <!-- 4. Add a Picture -->
         <div>
-
+            <img src="images/sunset.jpeg" style="width: 400px" class="mypicture/">  <!-- class is like thje name of the variable -->
         </div>
     </section>
 
@@ -33,10 +41,26 @@
     <section class="projects">
         <div>
             <!-- 5a. Add project title -->
-            <h4></h4>
+            <h4><a href="https://www.google.com/">Portfolio Project </a></h4>
 
             <!-- 5b. Add project description -->
+            <ul>
+                <li>learned about HTML</li>
+                <li>learned about CSS</li>
+            </ul>
 
+        </div>
+
+
+        <div>
+            <!-- 5a. Add project title -->
+            <h4><a href="https://www.google.com/">Calculator</a></h4>
+
+            <!-- 5b. Add project description -->
+            <ul>
+                <li>learned about calculators</li>
+                <li>learned about addition</li>
+            </ul>
 
         </div>
     </section>
@@ -46,7 +70,7 @@
         <h2>Connect With Me!</h2>
         <!-- 6a. Make a button -->
         <!-- 6b. Make it redirectable -->
-
+        <a href ="https://www.google.com/" target = "_ blank"><button>LinkedIN</button></a>
     </footer>
 </body>
 </html>
